@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+}
+
+.room{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 1.8rem;
+    height: 80vh;
+}
+
+.room div{
+    border: 2px solid black;
+    border-radius: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 3.8rem;
+    margin: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.room div:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
